@@ -3,112 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        
-        
-#icons{
-display: flex;
-gap: 20px;
-background-color: rgb(234, 192, 199);
-}
-
-        nav > ul{
-display: flex;
-
-gap: 30px;
-        }
-        nav > ul >li{
-            list-style-type: none;
-        }
-
-        nav > ul > li> a{
-            text-decoration: none;
-            font-size: larger;
-            font-weight: bolder;
-            color: rgb(168, 11, 147);
-        }
-        
-        #career{
-            background-color: antiquewhite;
-            color: blueviolet;
-            font-style: italic;
-            
-
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
   
-        }
-        #Summary{
-            background-color: antiquewhite;
-           color: blueviolet;
-            font-size: larger;
-            font-style: italic;
-            font-weight: bolder;
-            
-        }
-        #experience{
-            font-weight: bolder;
-            color: rgb(112, 227, 227);
-        }
-        #working{
-            color: brown;
-            background-color: rgb(196, 241, 106);
-        }
-        .tech{
-            color: cadetblue;
-            
-        }
-        .Angular{
-            color: brown;
-            text-decoration: none;
-            white-space: normal;
-        }
-        #Agile{
-            font-style: italic;
-            font-weight: bold;
-            background-color: rgb(226, 221, 221);
-        }
-
-    </style>
-    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div id="icons">
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-          </svg>
-          <span>Adarsh mahipal Udage</span>
-        </div>
-        <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-          </svg>
-          <span >5466 8342 029</span>
-          
-        </div>
-
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-              </svg>
-              <span>addyudage@gmail.com</span>
-            </div>
-             
-                 
-        
-        </div>
-        <nav>
+    <!-- Header Section -->
+    <header id="header">
+        <i class="fa fa-user fa-lg" aria-hidden="true"></i>
+        <span class="header-info">Adarsh Udage </span> 
+        <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>  
+        <span class="header-info">8600 4086 19  </span>  
+        <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+        <span class="header-info">addyudage0@gmail.com </span> 
+        <a href="assets/resume.pdf" download id="resume">  <i class="fa fa-download fa-lg" aria-hidden="true"></i> <span id="resume-text">RESUME</span>  </a>        
+  </header>
+        <nav id="nav">
             <ul>
                 
                 <li>
-                    <a href="">HOME</a>
+                    <a href=""><p id="HOME"> HOME</p></a>
                 </li>
-                <li><a href="">TECHSTACK</a></li>
-                <li><a href="">PROJECT</a></li>
-                <li><a href="">EDUCATION</a></li>
-               <li><a href="">MY PERSONAL DETAILS</a></li>
-                <li><a href="">OTHERS</a></li>
+                <li><a href=""><P id="HOME">TECHSTACK</P></a></li>
+               <li><a href=""><p id="HOME">PROJECT</P></a></li>
+                <li><a href=""><p id="HOME">EDUCATION</p></a></li>
+               <li><a href=""><p id="HOME">MY PERSONAL DETAILS</P></a></li>
+                <li><a href=""><p id="HOME">OTHERS</P></a></li>
                 
             </ul>
         </nav>
@@ -121,10 +41,10 @@ gap: 30px;
     </section>
     <main>
         <section id="Home">
-        <h2 id="Summary">Professional Summary</h2>
-<ul>
+        <h2 class="heading">Professional Summary</h2>
+<ul id="ListSummary">
     <li id="experience">Having 1 year of experience in developing Single page web Appliacations using <span class="Angular">Angular8</span>,HTML5,CSS3,Bootstrap5,JavaScript,TypeScript</li>
-   <li id="working">Experience on working with version control system - GIT and Github</li>
+   <li style="color: cadetblue;">Experience on working with version control system - GIT and Github</li>
 <li>Experience working with JIRA for user stories and bug tracking, </li>
 <li>Strong Debugging & Troubleshooting code experience using Chrome Developer Tools</li>
 <li>Working exposure on ID's like VS code and Notepad++</li>
@@ -136,5 +56,77 @@ gap: 30px;
 </ul>
 </section>
     </main>
+    <hr>
+    <section id="techStick">
+<h2 class="heading">My Technology Stack is</h2>
+<table id="techTable">
+    <thead>
+        <tr>
+            <th>Sr.No</th>
+            <th>Technology Stack</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>HTML</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>CSS</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>JavaScript</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Angular</td>
+        <td>3</td>
+    </tr>
+</tbody>
+</table>
+</section>
+<hr>
+<section id="project">
+    <h2 class="heading">Project Details</h2>
+<hr>
+<p><b>Name : <u>Student Management</u></b></p>
+
+<p><b><u>Environment:</u></b>Angular, React, Java, Javascript, HTML, CSS, Bootstrap, G</p> 
+<p><b>Team Size : </b>06 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Duration </p>
+<p><b>Project Description:</b> This project is mainly used for student manageme</p>
+<hr>
+<h2>Roles and Responsibilities</h2>
+<ol class="roles">
+<li>Designed and Implemented the user interface using HTML5 and CSS3</li> 
+<li>Work closely with backend developers for code integration</li>
+<li>Identifying and troubleshooting issues in front end codebase</li>
+<li>Worked in GIT as a version control</li>
+<li>Used JIRA for bug tracking</li>
+<li>Implemented project using Agile SCRUM methodology, involved in daily stack</li> 
+<li>involved in fixing technical issues in production environment</li>
+</ol>
+</section>
+<hr>
+<section id="education">
+    <h2>Education Deatils</h2>
+    <table id="education">
+        <thead>
+            <tr>
+
+            </tr>
+        </thead>
+    </table>
+    
+
+</section>
+    </table>
+        
+    
 </body>
 </html>

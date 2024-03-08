@@ -1,0 +1,122 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');      
+        
+#icons{
+display: flex;
+gap: 20px;
+background-color: rgb(234, 192, 199);
+}
+#header{
+  position: fixed;
+}
+#nav{
+  position: fixed;
+}
+
+        nav > ul{
+          position: fixed;
+display: flex;
+
+gap: 30px;
+        }
+        nav > ul >li{
+            list-style-type: none;
+        }
+
+        nav > ul > li> a{
+            text-decoration: none;
+            font-size: larger;
+            font-weight: bolder;
+            color: rgb(168, 11, 147);
+        }
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        #career{
+            background-color: antiquewhite;
+            color: blueviolet;
+            font-style: italic;
+            
+
+  
+        }
+        #Summary{
+            background-color: antiquewhite;
+           color: blueviolet;
+            font-size: larger;
+            font-style: italic;
+            font-weight: bolder;
+            
+        }
+        #experience{
+            font-weight: bolder;
+            color: rgb(112, 227, 227);
+        }
+        #working{
+            color: brown;
+            background-color: rgb(196, 241, 106);
+        }
+        .tech{
+            color: cadetblue;
+            
+        }
+        .Angular{
+            color: brown;
+            text-decoration: none;
+            white-space: normal;
+        }
+        #Agile{
+            font-style: italic;
+            font-weight: bold;
+            background-color: rgb(226, 221, 221);
+        }
+        
+      header{
+        padding: 20px;
+        background-color: rgb(216, 244, 245);
+      }
+      #resume{
+        color: orange;
+        font-weight: bolder;
+      }
+      .heading{
+        color: cadetblue;
+        font-style: italic;
+        font-family:"Roboto",sans-serif;
+      }
+      .header-info{
+        margin-right: 40px;
+        margin-left: 10px;
+      }
+      #resume-text{
+        margin-left: 10px;
+      }
+      #HOME{
+        padding: 50;
+      }
+      table,tr,th,td{
+        border: 2px solid rgb(216,186,131);
+        border-collapse: collapse;
+      }
+      td,th{
+        padding: 10px;
+      }
+      #techTable{
+        width: 50%;
+      }
+      #ListSummary,copyright{
+font-family: "poppins",sans-serif;
+      }
+      #ListSummary li{
+list-style-type: square;
+      }
+      .roles{
+        list-style-type: lower-alpha;
+        
+      }
+      .roles li{
+        padding-top: 1rem;
+      }
+    </style>
